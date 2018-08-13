@@ -13,10 +13,10 @@ export class HomePage {
 
   }
 
-  ionViewWillEnter() {
+    ionViewWillEnter() {
     this.menu.swipeEnable(false);
     }
-    
+
     ionViewDidLeave() {
     this.menu.swipeEnable(true);
     }
