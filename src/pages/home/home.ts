@@ -55,4 +55,8 @@ export class HomePage {
     
   }
 
+  singnup(){
+    this.navCtrl.push('SignupPage');
+  }
+
 }
